@@ -1,0 +1,61 @@
+﻿@{
+    Layout = ""; 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Denied</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .lock-icon {
+            font-size: 6em;
+            color: #333;
+            transition: transform 0.5s ease-in-out;
+        }
+
+            .lock-icon:hover {
+                transform: rotate(5deg);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lock-icon">&#x1F512;</div>
+        <h1>Access Denied</h1>
+        <p>Sorry, you don't have permission to access this page.</p>
+        <a href="/" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
+
+
+
+

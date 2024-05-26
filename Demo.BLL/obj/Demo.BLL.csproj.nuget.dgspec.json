@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.BLL\\Demo.BLL.csproj": {}
+  },
+  "projects": {
+    "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.BLL\\Demo.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.BLL\\Demo.BLL.csproj",
+        "projectName": "Demo.BLL",
+        "projectPath": "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.BLL\\Demo.BLL.csproj",
+        "packagesPath": "C:\\Users\\Golden-Tech\\.nuget\\packages\\",
+        "outputPath": "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Golden-Tech\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.DAL\\Demo.DAL.csproj": {
+                "projectPath": "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.DAL\\Demo.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.DAL\\Demo.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.DAL\\Demo.DAL.csproj",
+        "projectName": "Demo.DAL",
+        "projectPath": "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.DAL\\Demo.DAL.csproj",
+        "packagesPath": "C:\\Users\\Golden-Tech\\.nuget\\packages\\",
+        "outputPath": "D:\\Back-End\\05 MVC\\Session 07\\DemoSession07\\Demo.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Golden-Tech\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
